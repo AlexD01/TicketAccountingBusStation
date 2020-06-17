@@ -1,0 +1,78 @@
+﻿<Window x:Class="WpfApp6.createvoditel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="createvoditel" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image Name="img" Grid.Row="1" Grid.Column="1">
+
+        </Image>
+        <DataGrid AutoGenerateColumns="False" x:Name="VoditelGrid"  Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding LastName}" Header="Фамилия водителя" Width="120" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding FirstName}" Header="Имя водителя" Width="120" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding Patronymic}" Header="Отчество водителя" Width="120" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding Experience}" Header="Стаж работы" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding Year}" Header="Год рождения" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding Category}" Header="Категория водителя (D, Е)" Width="160" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding Class}" Header="Классность водителя (1, 2, 3)" Width="160" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding DriverlD}" Header="Идентификационный номер водителя" Width="220" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding BusNumber}" Header="Идентификационный номер автобуса" Width="220" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding RoutelD}" Header="Идентификатор маршрута" Width="150" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+        <Grid Grid.Column="0" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Фамилия водителя"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Имя водителя"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Отчество водителя"/>
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="Стаж работы"/>
+            <TextBox Name="famv" Grid.Row="0" Grid.Column="1"/>
+            <TextBox Name="namev" Grid.Row="1" Grid.Column="1"/>
+            <TextBox Name="otchv" Grid.Row="2" Grid.Column="1"/>
+            <TextBox Name="stazv" Grid.Row="3" Grid.Column="1"/>
+
+
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="Год рождения"></TextBlock>
+            <TextBlock Grid.Row="5" Grid.Column="0" Text="Категория водителя (D, Е)"/>
+
+            <TextBlock Grid.Row="6" Grid.Column="0" Text="Классность водителя (1, 2, 3)"/>
+            <TextBlock Grid.Row="7" Grid.Column="0" Text="Идентификационный номер водителя"></TextBlock>
+            <TextBox Name="yearv" Grid.Row="4" Grid.Column="1"/>
+            <TextBox Name="catev" Grid.Row="5" Grid.Column="1"/>
+            <TextBox Name="classv" Grid.Row="6" Grid.Column="1"/>
+            <TextBox Name="idv" Grid.Row="7" Grid.Column="1"/>
+
+            <Button Name="CreateVoditel" Grid.Row="8" Grid.ColumnSpan="2" Content="Создать Водителя" Click="CreateVoditel_Click" />
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,81 @@
+﻿<Window x:Class="WpfApp6.createbilet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="createbilet" Height="300" Width="620" MinWidth="620" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <DataGrid AutoGenerateColumns="False" x:Name="MarshrutGrid" Grid.Column="1" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding RoutelD}" Header="Идентификатор маршрута" Width="160" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding SumDriver}" Header="Выручка на маршруте" Width="140" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding SumTax}" Header="Штраф на водителя" Width="120"  IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding Comment}" Header="Промежуточные пункты маршрута" Width="220"  IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding BusNumber}" Header="Идентификационный номер автобуса" Width="220" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding DriverlD}" Header="Идентификационный номер водителя" Width="220" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid AutoGenerateColumns="False" x:Name="BiletGrid"  Grid.Row="1" Grid.Column="1" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding RoutelD}" Header="Идентификатор маршрута" Width="160" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding PointStart}" Header="Начальный пункт" Width="110" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding PointStop}" Header="Конечный пункт" Width="110" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding DateStart}" Header="Дата отправления" Width="120" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding TimeAll}" Header="Время в пути до конечного пункта" Width="200" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding PlaceNumber}" Header="Номер места" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Binding="{Binding PlaceSign}" Header="Билет продан на автовокзале (да/нет)" Width="220" IsReadOnly="True"/>
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+        <Grid Grid.Column="0" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Идентификатор маршрута"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Начальный пункт"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Конечный пункт"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Дата отправления"/>
+        <TextBox Name="Mid" Grid.Row="0" Grid.Column="1"/>
+        <TextBox Name="StartP" Grid.Row="1" Grid.Column="1"/>
+        <TextBox Name="StopP" Grid.Row="2" Grid.Column="1"/>
+        <DatePicker Name="Date" Grid.Row="3" Grid.Column="1"></DatePicker>
+
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="Время в пути до конечного пункта"/>
+        <TextBlock Grid.Row="4" Grid.Column="0"><Run Text="Время отправления"/><Run Text=" (через "/><Run Text=":)"/></TextBlock>
+        <TextBlock Grid.Row="6" Grid.Column="0" Text="Номер места"/>
+        <TextBlock Grid.Row="7" Grid.Column="0"><Run Text="Билет продан на автовокзале (1"/><Run Text="/0)"/></TextBlock>
+        <TextBox Name="TStart" Grid.Row="4" Grid.Column="1"/>
+        <TextBox Name="Tall" Grid.Row="5" Grid.Column="1"/>
+        <TextBox Name="Placenum" Grid.Row="6" Grid.Column="1"/>
+        <TextBox Name="Placesign" Grid.Row="7" Grid.Column="1"/>
+            <Button Name="CreateBilet" Grid.Row="8" Grid.ColumnSpan="2" Content="Создать билет" Click="CreateBilet_Click"/>
+        </Grid>
+    </Grid>
+</Window>

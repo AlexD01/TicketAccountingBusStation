@@ -1,0 +1,149 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="749.5" Loaded="Window_Loaded">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50px"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button Name="butinfbus" Content="Информация о Автобусах" Grid.Column="0" Click="butinfbus_Click"/>
+            <Button Name="butinfvoditel" Content="Информация о Водителях" Grid.Column="1" Click="butinfvoditel_Click"/>
+            <Button Name="butinfmarshrut" Content="Информация о Маршрутах" Grid.Column="2" Click="butinfmarshrut_Click"/>
+            <Button Name="butinfbilet" Content="Информация о Билетах" Grid.Column="3" Click="butinfbilet_Click"/>
+        </Grid>
+
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="200px"/>
+            </Grid.ColumnDefinitions>
+
+
+            <DataGrid AutoGenerateColumns="False" x:Name="BusGrid"  CanUserAddRows="False" Visibility="Hidden">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding BusNumber}" Header="Идентификационный номер автобуса" Width="220" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding Brand}" Header="Марка автобуса" Width="120"/>
+                    <DataGridTextColumn Binding="{Binding Model}" Header="Модель автобуса" Width="120"/>
+                    <DataGridTextColumn Binding="{Binding Capacity}" Header="Количество мест в автобусе" Width="180"/>
+                    <DataGridTextColumn Binding="{Binding YearBus}" Header="Год выпуска автобуса" Width="140"/>
+                    <DataGridTextColumn Binding="{Binding YearRepair}" Header="Год капитального ремонта" Width="160"/>
+                    <DataGridTextColumn Binding="{Binding Distance}" Header="Пробег автобуса, км" Width="140"/>
+                    <DataGridTextColumn Binding="{Binding DriverlD}" Header="Идентификационный номер водителя" Width="220" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding RoutelD}" Header="Идентификатор маршрута" Width="150 " IsReadOnly="True"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+            <DataGrid AutoGenerateColumns="False" x:Name="VoditelGrid"  CanUserAddRows="False" Visibility="Hidden">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding LastName}" Header="Фамилия водителя" Width="120"/>
+                    <DataGridTextColumn Binding="{Binding FirstName}" Header="Имя водителя" Width="120"/>
+                    <DataGridTextColumn Binding="{Binding Patronymic}" Header="Отчество водителя" Width="120"/>
+                    <DataGridTextColumn Binding="{Binding Experience}" Header="Стаж работы" Width="100"/>
+                    <DataGridTextColumn Binding="{Binding Year}" Header="Год рождения" Width="100"/>
+                    <DataGridTextColumn Binding="{Binding Category}" Header="Категория водителя (D, Е)" Width="160"/>
+                    <DataGridTextColumn Binding="{Binding Class}" Header="Классность водителя (1, 2, 3)" Width="160"/>
+                    <DataGridTextColumn Binding="{Binding DriverlD}" Header="Идентификационный номер водителя" Width="220" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding BusNumber}" Header="Идентификационный номер автобуса" Width="220" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding RoutelD}" Header="Идентификатор маршрута" Width="150" IsReadOnly="True"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <DataGrid AutoGenerateColumns="False" x:Name="BiletGrid"   CanUserAddRows="False" Visibility="Hidden">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding RoutelD}" Header="Идентификатор маршрута" Width="160" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding PointStart}" Header="Начальный пункт" Width="110" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding PointStop}" Header="Конечный пункт" Width="110" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding DateStart}" Header="Дата отправления" Width="120" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding TimeAll}" Header="Время в пути до конечного пункта" Width="200" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding PlaceNumber}" Header="Номер места" Width="100" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding PlaceSign}" Header="Билет продан на автовокзале (да/нет)" Width="220" IsReadOnly="True"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+            <DataGrid AutoGenerateColumns="False" x:Name="MarshrutGrid"   CanUserAddRows="False" Visibility="Hidden">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding RoutelD}" Header="Идентификатор маршрута" Width="160" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding SumDriver}" Header="Выручка на маршруте" Width="140" />
+                    <DataGridTextColumn Binding="{Binding SumTax}" Header="Штраф на водителя" Width="120"/>
+                    <DataGridTextColumn Binding="{Binding Comment}" Header="Промежуточные пункты маршрута" Width="220"/>
+                    <DataGridTextColumn Binding="{Binding BusNumber}" Header="Идентификационный номер автобуса" Width="220" IsReadOnly="True"/>
+                    <DataGridTextColumn Binding="{Binding DriverlD}" Header="Идентификационный номер водителя" Width="220" IsReadOnly="True"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Grid Name="gridbus" Grid.Column="1" Visibility="Hidden">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0">Автобусы</TextBlock>
+                <Button  Grid.Row="2" x:Name="deleteButton" Content="Удалить" Click="deleteButton_Click" />
+                <Button  Grid.Row="1" Name="Createbus" Content="Добавить автобус" Click="Createbus_Click" />
+                <Button  Grid.Row="3" x:Name="image" Content="Загрузить изображение" Click="image_Click" />
+                <TextBox  Grid.Row="4" Name="id"> </TextBox>
+                <Image Name="img"  Grid.Row="5"></Image>
+            </Grid>
+
+            <Grid Name="gridvoditel" Grid.Column="1" Visibility="Hidden">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0">Водители</TextBlock>
+                <Button  Grid.Row="2" x:Name="deleteButton1" Content="Удалить" Click="DeleteButton1_Click" />
+                <Button  Grid.Row="1" x:Name="createvoditel" Content="Добавить водителя" Click="createvoditel_Click" />
+            </Grid>
+
+            <Grid Name="gridmarshrut" Grid.Column="1" Visibility="Hidden">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0">Маршруты</TextBlock>
+                <Button  Grid.Row="2" x:Name="deleteButton3" Content="Удалить" Click="DeleteButton3_Click" />
+                <Button  Grid.Row="1" x:Name="createmarshrut" Content="Добавить Маршрут" Click="Createmarshrut_Click" />
+            </Grid>
+
+            <Grid Name="gridbilet" Grid.Column="1" Visibility="Hidden">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0">Билеты</TextBlock>
+                <Button  Grid.Row="2" x:Name="deleteButton2" Content="Удалить" Click="DeleteButton2_Click" />
+                <Button  Grid.Row="1" x:Name="createbilet" Content="Добавить билет" Click="ff_Click" />
+            </Grid>
+
+        </Grid>
+        
+        
+
+    </Grid>
+
+</Window>

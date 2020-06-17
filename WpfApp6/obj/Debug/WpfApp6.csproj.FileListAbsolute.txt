@@ -1,0 +1,150 @@
+C:\Users\User\source\repos\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\User\source\repos\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\User\source\repos\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\User\source\repos\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csprojResolveAssemblyReference.cache
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.Cache
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\user22\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\User\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\User\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\User\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\User\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\user22\Desktop\2\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\user22\Desktop\2\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\user22\Desktop\2\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\App.g.cs
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.Cache
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\createbilet.g.cs
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\createbilet.baml
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\createmarshrut.g.cs
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\createmarshrut.baml
+F:\kr oop\2\WpfApp6\bin\Debug\WpfApp6.exe.config
+F:\kr oop\2\WpfApp6\bin\Debug\WpfApp6.exe
+F:\kr oop\2\WpfApp6\bin\Debug\WpfApp6.pdb
+F:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+F:\kr oop\2\WpfApp6\obj\Debug\createbilet.g.cs
+F:\kr oop\2\WpfApp6\obj\Debug\createmarshrut.g.cs
+F:\kr oop\2\WpfApp6\obj\Debug\MainWindow.g.cs
+F:\kr oop\2\WpfApp6\obj\Debug\App.g.cs
+F:\kr oop\2\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+F:\kr oop\2\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+F:\kr oop\2\WpfApp6\obj\Debug\createbilet.baml
+F:\kr oop\2\WpfApp6\obj\Debug\createmarshrut.baml
+F:\kr oop\2\WpfApp6\obj\Debug\MainWindow.baml
+F:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.g.resources
+F:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+F:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+F:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+F:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.exe
+F:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.pdb
+G:\kr oop\2\WpfApp6\bin\Debug\WpfApp6.exe.config
+G:\kr oop\2\WpfApp6\bin\Debug\WpfApp6.exe
+G:\kr oop\2\WpfApp6\bin\Debug\WpfApp6.pdb
+G:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.csprojResolveAssemblyReference.cache
+G:\kr oop\2\WpfApp6\obj\Debug\createbilet.g.cs
+G:\kr oop\2\WpfApp6\obj\Debug\createmarshrut.g.cs
+G:\kr oop\2\WpfApp6\obj\Debug\MainWindow.g.cs
+G:\kr oop\2\WpfApp6\obj\Debug\App.g.cs
+G:\kr oop\2\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+G:\kr oop\2\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+G:\kr oop\2\WpfApp6\obj\Debug\createbilet.baml
+G:\kr oop\2\WpfApp6\obj\Debug\createmarshrut.baml
+G:\kr oop\2\WpfApp6\obj\Debug\MainWindow.baml
+G:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.g.resources
+G:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+G:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.Cache
+G:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+G:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.exe
+G:\kr oop\2\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\createbus.g.cs
+C:\Users\user22\Desktop\2\WpfApp6\obj\Debug\createbus.baml
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\createbilet.g.cs
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\createbus.g.cs
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\createmarshrut.g.cs
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\App.g.cs
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\createbilet.baml
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\createbus.baml
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\createmarshrut.baml
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\createvoditel.g.cs
+C:\Users\PC-Yasha\Desktop\2\WpfApp6\obj\Debug\createvoditel.baml
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\WpfApp6.csprojAssemblyReference.cache
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\createbilet.g.cs
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\createbus.g.cs
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\createmarshrut.g.cs
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\createvoditel.g.cs
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\App.g.cs
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\createbilet.baml
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\createbus.baml
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\createmarshrut.baml
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\createvoditel.baml
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\WpfApp6.csproj.GenerateResource.cache
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\WpfApp6.csproj.CoreCompileInputs.cache
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\PC-Yasha\Desktop\temp\web\2\WpfApp6\obj\Debug\WpfApp6.pdb
